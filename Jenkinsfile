@@ -4,7 +4,7 @@ pipeline {
     stage('buzz-build') {
       steps {
         echo 'hi this sowji'
-        archiveArtifacts(fingerprint: true, artifacts: 'target/*.jar')
+        archiveArtifacts(fingerprint: true, artifacts: '.txt')
       }
     }
 
