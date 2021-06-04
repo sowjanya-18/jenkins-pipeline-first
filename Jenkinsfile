@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('buzz-build') {
       steps {
-        echo 'hi this sowji'
-        archiveArtifacts(fingerprint: true, artifacts: '.txt')
+        echo 'hi this sowji '
+        archiveArtifacts(fingerprint: true, artifacts: 'jenkins-pipeline-first.txt')
       }
     }
 
